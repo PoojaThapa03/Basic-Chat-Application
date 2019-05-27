@@ -1,0 +1,10 @@
+.messageRight{
+    text-align: right;
+    background-color: #19d41994;
+    border-radius: 10px;
+  }
+.messageLeft {
+  text-align: left;
+  background-color: #c0b0dea6;;
+  border-radius: 10px;
+}

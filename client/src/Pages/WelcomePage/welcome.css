@@ -1,0 +1,79 @@
+body{
+    background-color: lightgray;
+}
+.root{
+  flex-grow: 1;
+  font-size: 2em;
+  font-family: monospace;
+}
+.grow {
+  flex-grow: 1;
+  text-align: center;
+}
+.vl {
+    border-left: 2px solid grey !important;
+    background-image: url("../../Images/final.png");
+    background-color: #518adf;
+    /* height: 600px !important; */
+  }
+
+  input[name="renderInput"] {
+      position: fixed;
+      bottom: 5px;
+      width: 65%;
+      margin: 0 0 0 2px;
+      border: 1px solid seagreen;
+  }
+  
+  /* .addButton {
+    background-color: goldenrod !important;
+    position: sticky !important;
+    bottom: 5px !important;
+    min-height: 32px !important;
+    height: 20px !important;
+    border-radius: 0 !important;
+  } */
+  .message{
+    
+    margin: 20px 50px 0 0;
+    list-style: none;
+  }
+  .searchIcon{
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    align-items: center;
+    justify-content: center;
+    top: 91px;
+    left: 35px;
+    
+  }
+  input[name="inputBase"]{
+     width: 312px !important
+  }
+  input[name="inputBase"]:focus {
+    border-bottom: 2px solid #F1D468;
+    color: #16a085;
+    transition: 0.2s ease;
+  }
+  
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  tr[name="friends"]:nth-child(even) {
+    background-color: lightgray;;
+    border-radius: 40px;
+  }
+  tr[name="friends"]:nth-child(odd) {
+    background-color: darkgrey;;
+  }
+
+  /* tr:nth-child(even) :hover {
+    background-color: antiquewhite;
+  }
+  tr:nth-child(odd) :hover {
+    background-color: antiquewhite;
+  }
+   */
